@@ -1,7 +1,7 @@
 *{
     margin: 0%;
     padding: 0%;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Poppins, sans-serif;
 }
 
 a{
@@ -11,7 +11,6 @@ a{
 nav{
     display: flex;
     justify-content: space-around;
-    background: none transparent;
 }
 
 .navlinks{    
@@ -30,8 +29,23 @@ nav{
 }
 
 .intro{
-    width: 100%;
-    height: 610px;
-    background-image: url('./images/bg2.jpg');
+    background-image: url(./images/bg2.jpg);
     background-size: cover;
 }
+
+.content{
+    backdrop-filter: blur(3px);    
+    height: 690px;
+}
+
+.msg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding-top: 200px;
+}
+
+
